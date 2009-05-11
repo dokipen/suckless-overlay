@@ -1,0 +1,6 @@
+Add http://cloud.github.com/downloads/dokipen/suckless-overlay/suckless-layman-list.xml to your layman.cfg overlays list.
+
+$ layman -f
+$ layman -a suckless
+
+enjoy!

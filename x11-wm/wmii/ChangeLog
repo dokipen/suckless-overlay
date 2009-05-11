@@ -1,0 +1,8 @@
+# ChangeLog for x11-wm/wmii
+# Copyright 1999-2008 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  05 May 2009; Doki Pen <doki_pen@doki-pen.org> +files/wmii.desktop,
+  +metadata.xml, +wmii-9999.ebuild, +files/config.local.mk:
+  Initial commit.
+
