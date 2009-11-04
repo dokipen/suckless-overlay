@@ -1,0 +1,11 @@
+diff -r fc3dc1a3255d Makefile
+--- a/Makefile	Thu Sep 10 19:00:09 2009 +0100
++++ b/Makefile	Wed Nov 04 12:28:46 2009 -0500
+@@ -2,6 +2,7 @@
+ # See LICENSE file for copyright and license details.
+ 
+ include config.mk
++include config.local.mk
+ 
+ SRC_wmi = action.cpp \
+ 	actions.cpp \
