@@ -1,0 +1,11 @@
+diff -r e9798f4e063a Makefile
+--- a/Makefile	Mon Nov 02 09:29:54 2009 +0100
++++ b/Makefile	Wed Nov 04 12:14:50 2009 -0500
+@@ -2,6 +2,7 @@
+ # See LICENSE file for copyright and license details.
+ 
+ include config.mk
++include config.local.mk
+ 
+ SRC = surf.c
+ OBJ = ${SRC:.c=.o}

@@ -1,0 +1,18 @@
+diff -r e9798f4e063a surf.c
+--- a/surf.c	Mon Nov 02 09:29:54 2009 +0100
++++ b/surf.c	Wed Nov 04 14:26:22 2009 -0500
+@@ -725,12 +725,14 @@
+ 
+ void
+ source(Client *c, const Arg *arg) {
++    /*
+ 	Arg a = { .b = FALSE };
+ 	gboolean s;
+ 
+ 	s = webkit_web_view_get_view_source_mode(c->view);
+ 	webkit_web_view_set_view_source_mode(c->view, !s);
+ 	reload(c, &a);
++    */
+ }
+ 
+ void
