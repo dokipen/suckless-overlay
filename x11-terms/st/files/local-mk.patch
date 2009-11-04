@@ -1,0 +1,11 @@
+diff -r 52910cda2080 Makefile
+--- a/Makefile	Wed Oct 28 14:34:22 2009 +0100
++++ b/Makefile	Wed Nov 04 12:14:16 2009 -0500
+@@ -2,6 +2,7 @@
+ # See LICENSE file for copyright and license details.
+ 
+ include config.mk
++include config.local.mk
+ 
+ SRC = st.c
+ OBJ = ${SRC:.c=.o}
