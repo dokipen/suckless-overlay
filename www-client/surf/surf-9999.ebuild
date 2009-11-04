@@ -11,7 +11,7 @@ EHG_REPO_URI="http://hg.suckless.org/surf"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~x86"
-IUSE=""
+IUSE="doc"
 
 DEPEND="net-libs/webkit-gtk"
 RDEPEND="${DEPEND}"
