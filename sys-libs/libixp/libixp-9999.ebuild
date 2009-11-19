@@ -34,5 +34,5 @@ src_compile() {
 }
 
 src_install() {
-	emake -j1 DESTDIR="${D}" install || die "emake install failed"
+	emake -j1 install || die "emake install failed"
 }
