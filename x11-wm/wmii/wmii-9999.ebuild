@@ -45,5 +45,5 @@ src_install() {
 	doexe "${FILESDIR}/XSessions/${PN}"
 
 	insinto /usr/share/xsessions
-	doins "${FILESDIR}/${PN}.desktop"
+	newins "${FILESDIR}/${PN}.desktop.tip" "${PN}.desktop"
 }
