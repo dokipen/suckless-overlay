@@ -10,7 +10,6 @@ EHG_REPO_URI="http://code.suckless.org/hg/wmii"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc64 ~x86"
 IUSE="doc ruby python plan9port"
 
 DEPEND="
