@@ -14,6 +14,7 @@ KEYWORDS="~amd64 ~ppc64 ~x86"
 IUSE="doc ruby python plan9port"
 
 DEPEND="
+	app-text/txt2tags
 	x11-libs/libX11
 	x11-libs/libXext
 	x11-libs/libXft
