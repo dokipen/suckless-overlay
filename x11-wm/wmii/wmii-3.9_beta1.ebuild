@@ -26,7 +26,6 @@ RDEPEND="
 	${DEPEND}
 	x11-apps/xmessage
 	x11-apps/xsetroot
-	x11-terms/xterm
 	ruby? (
 		>=dev-ruby/rumai-3.2.0
 		>=x11-misc/dmenu-4.0
@@ -70,4 +69,8 @@ src_install() {
 	use ruby || rm -Rf ${D}/etc/wmii/ruby
 	use python || rm -Rf ${D}/etc/wmii/python
 	use plan9port || rm -Rf ${D}/etc/wmii/plan9port
+
+	ewarn "Note that the default config files use xterm as the terminal "
+	ewarn "emulator.  If you don't have xterm installed, then you will need "
+	ewarn "to edit your wmii configuration to get <Alt>-<Return> working."
 }
