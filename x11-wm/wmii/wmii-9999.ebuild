@@ -15,6 +15,7 @@ IUSE="doc ruby python plan9port"
 
 DEPEND="
 	app-text/txt2tags
+	sys-libs/libixp
 	x11-libs/libX11
 	x11-libs/libXext
 	x11-libs/libXft
