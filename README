@@ -1,4 +1,4 @@
-Add http://cloud.github.com/downloads/dokipen/suckless-overlay/suckless-layman-list.xml to your layman.cfg overlays list.
+Add http://hg.suckless.org/gentoo/raw-file/2c99d09d3336/suckless-layman-list.xml to your layman.cfg overlays list.
 
 $ layman -f
 $ layman -a suckless
